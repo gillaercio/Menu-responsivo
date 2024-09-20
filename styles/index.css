@@ -16,11 +16,26 @@ header {
   h1 {
     padding: 10px;
     text-align: center;
+  
+  }
+
+  i#burguer {
+    background-color: rgb(49, 48, 48);
+    display: block;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+  }
+
+  i#burguer:hover {
+    background-color: white;
+    color: black;
   }
 }
 
 menu {
-  display: block;
+  display: none;
   
   ul {
     list-style-type: none;
